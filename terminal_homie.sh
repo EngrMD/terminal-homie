@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-source terminal_homie_utils.sh
+source $HOME/terminal_homie_utils.sh
 greetings_file="$HOME/terminal_homie_greetings"
 
 if [ -e "$greetings_file" ]; then
